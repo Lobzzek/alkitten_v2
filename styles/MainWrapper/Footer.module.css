@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: auto;
+}
+
+.footer .cnt {
+    padding: 30px;
+    border-top: .53px solid #6d7b81;
+    display: flex;
+    justify-content: center;
+    width: 1540px;
+}
+
+.footer .cnt p{
+    color: #6d7b81;
+}

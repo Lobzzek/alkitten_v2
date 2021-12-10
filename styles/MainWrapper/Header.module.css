@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 136px;
+    background: #152B34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.header .cnt {
+    width: 1388px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .cnt .logo {
+    width: 250px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
+
+.header nav .links {
+    display: flex;
+    align-items: center;
+}
+
+.header nav .links a {
+    color: white;
+    margin-right: 60px;
+}
+
+.header nav>button {
+    display: flex;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 100px;
+}
+
+.header nav>button img:first-child{
+    margin: 0 20px 0 10px;
+}

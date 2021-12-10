@@ -1,0 +1,11 @@
+.img_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 180px;
+}
+.img_text img{
+    width: 150px;
+    margin-left: 20px;
+}
