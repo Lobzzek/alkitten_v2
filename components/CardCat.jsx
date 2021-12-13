@@ -1,108 +1,54 @@
 import s from '../styles/CardCat.module.css'
 import React from 'react'
-import classNames from 'classnames'
 import Link from 'next/link'
 
+import jsonCats from '../_data_cats.js'
+import { useDispatch } from 'react-redux'
+import { setActiveBreed } from '../Redux/actions/activeBreed.js'
+import { setActivePopupBreeds } from '../Redux/actions/activePopupBreeds.js'
+
 const CardCat = (props) => {
-   
-    
-        return (
-            // <div className={props.horizontal ? s.cat_card_info : `${s.cat_card_info} ${s.horizontal}`}>
-            <div className={classNames(s.cat_card_info, {
-                [s.small]: props.small
-            })}>
-                <div className={`${s.cat_card_info_row} ${s.cat_card_info_row_1}`}>
-                    <div className={s.cat_card_info_row_text}>
-                        <h2 className={s.cat_card_info_row__title}>
-                            {
-                                props.name ? props.name : "QUEEN"
-                            }
-                            {
-                                props.verefied ? <img src="/img/icon/checked.svg" alt="cat card info check icon" /> : null
-                            }
-                        </h2>
-                        <div className={s.cat_card_info_row__sub_titles} >
-                            <p>
-
-                                {
-                                    props.breed ? props.breed : "Maine Coon"
-                                }
-                            </p>
-                            <p>
-                            <Link href="/catteries/1">
-                                <a>
-                                    {
-                                        props.cattery ? props.cattery : "Newlogica Cattery"
-                                    }
-                                </a>
-                            </Link>
-                            </p>
-                        </div>
-                    </div>
-                    <Link href={`/catteries/1`}>
-                        <a>
-                            <div className={s.cat_card_info__icon} style={{ background: `url('${props.img_cattery}') 0/cover no-repeat` }}></div>
-                        </a>           
-                    </Link>
+    const dispatch = useDispatch();
+    const all_breeds = [...jsonCats.long_hair, ...jsonCats.short_hair, ...jsonCats.siamese_and_oriental];
+    return (
+        <div className={s.card_cat}>
+            <div className={s.img_liked} style={{background: `url(${props.img ? props.img : `/img/empty_img.jpg`}) center/cover no-repeat`}}>
+                <svg className={props.liked ? s.liked : undefined} xmlns="http://www.w3.org/2000/svg"  width="120px" height="120px" version="1.1" 
+                    viewBox="0 0 117.91 117.91"
+                    xmlnsXlink="http://www.w3.org/1999/xlink">
+                    <g id="Слой_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer" />
+                        <path className={s.fil0} d="M43.44 33.64c-3.37,0.44 -6.11,1.41 -8.59,3.05 -3.85,2.55 -6.61,6.21 -7.99,10.59 -2.47,7.87 -0.02,15.99 7.68,25.44 1.48,1.83 6.4,6.88 8.51,8.75 3.71,3.28 7.77,6.43 11.97,9.28 3.81,2.59 4.24,2.77 5.36,2.24 0.85,-0.4 5.94,-3.91 8.54,-5.91 4.72,-3.61 8.08,-6.58 11.73,-10.37 6.95,-7.24 10.73,-13.59 11.92,-20.04 0.32,-1.78 0.32,-5.22 0,-6.92 -1.56,-8.08 -7.36,-14.08 -15.31,-15.82 -1.76,-0.39 -5.42,-0.42 -7.2,-0.06 -3.6,0.73 -6.73,2.31 -9.52,4.8l-1.14 1.02 -1.21 -1.07c-0.67,-0.59 -1.61,-1.35 -2.11,-1.69 -2.1,-1.44 -4.91,-2.6 -7.36,-3.05 -1.14,-0.21 -4.39,-0.36 -5.28,-0.24zm3.74 4.32c4.08,0.58 7.41,2.53 10.15,5.95 0.83,1.03 1.34,1.37 2.07,1.37 0.74,0 1.25,-0.34 2.04,-1.35 1.64,-2.09 3.34,-3.49 5.57,-4.58 7.56,-3.68 16.55,-0.44 20.18,7.28 3.4,7.24 1.03,15.23 -7.37,24.82 -4.44,5.06 -11.97,11.47 -19.27,16.4l-1.15 0.77 -1.86 -1.28c-12.13,-8.28 -21.48,-17.73 -25.21,-25.47 -2.74,-5.67 -2.93,-10.63 -0.59,-15.46 0.87,-1.81 1.68,-2.9 3.26,-4.42 3.25,-3.12 7.84,-4.64 12.18,-4.03z" />
+                        <path className={s.fil1} d="M47.18 37.96c-4.34,-0.61 -8.93,0.91 -12.18,4.03 -1.58,1.52 -2.39,2.61 -3.26,4.42 -2.34,4.83 -2.15,9.79 0.59,15.46 3.73,7.74 13.08,17.19 25.21,25.47l1.86 1.28 1.15 -0.77c7.3,-4.93 14.83,-11.34 19.27,-16.4 8.4,-9.59 10.77,-17.58 7.37,-24.82 -3.63,-7.72 -12.62,-10.96 -20.18,-7.28 -2.23,1.09 -3.93,2.49 -5.57,4.58 -0.79,1.01 -1.3,1.35 -2.04,1.35 -0.73,0 -1.24,-0.34 -2.07,-1.37 -2.74,-3.42 -6.07,-5.37 -10.15,-5.95z" />
+                        <circle className={s.fil2} cx="58.96" cy="58.96" r="58.96" />
+                        <path className={s.fil3} d="M117.91 58.96c0,-32.56 -26.39,-58.96 -58.95,-58.96 -32.56,0 -58.96,26.4 -58.96,58.96 0,32.56 26.4,58.95 58.96,58.95 32.56,0 58.95,-26.39 58.95,-58.95zm-83.06 -22.27c2.48,-1.64 5.22,-2.61 8.59,-3.05 0.89,-0.12 4.14,0.03 5.28,0.24 2.45,0.45 5.26,1.61 7.36,3.05 0.5,0.34 1.44,1.1 2.11,1.69l1.21 1.07 1.14 -1.02c2.79,-2.49 5.92,-4.07 9.52,-4.8 1.78,-0.36 5.44,-0.33 7.2,0.06 7.95,1.74 13.75,7.74 15.31,15.82 0.32,1.7 0.32,5.14 0,6.92 -1.19,6.45 -4.97,12.8 -11.92,20.04 -3.65,3.79 -7.01,6.76 -11.73,10.37 -2.6,2 -7.69,5.51 -8.54,5.91 -1.12,0.53 -1.55,0.35 -5.36,-2.24 -4.2,-2.85 -8.26,-6 -11.97,-9.28 -2.11,-1.87 -7.03,-6.92 -8.51,-8.75 -7.7,-9.45 -10.15,-17.57 -7.68,-25.44 1.38,-4.38 4.14,-8.04 7.99,-10.59z" />
+                        <path className={s.fil4} d="M34.54 72.72c-7.7,-9.45 -10.15,-17.57 -7.68,-25.44 1.38,-4.38 4.14,-8.04 7.99,-10.59 2.48,-1.64 5.22,-2.61 8.59,-3.05 0.89,-0.12 4.14,0.03 5.28,0.24 2.45,0.45 5.26,1.61 7.36,3.05 0.5,0.34 1.44,1.1 2.11,1.69l1.21 1.07 1.14 -1.02c2.79,-2.49 5.92,-4.07 9.52,-4.8 1.78,-0.36 5.44,-0.33 7.2,0.06 7.95,1.74 13.75,7.74 15.31,15.82 0.32,1.7 0.32,5.14 0,6.92 -1.19,6.45 -4.97,12.8 -11.92,20.04 -3.65,3.79 -7.01,6.76 -11.73,10.37 -2.6,2 -7.69,5.51 -8.54,5.91 -1.12,0.53 -1.55,0.35 -5.36,-2.24 -4.2,-2.85 -8.26,-6 -11.97,-9.28 -2.11,-1.87 -7.03,-6.92 -8.51,-8.75zm83.37 -13.76c0,-32.56 -26.39,-58.96 -58.95,-58.96 -32.56,0 -58.96,26.4 -58.96,58.96 0,32.56 26.4,58.95 58.96,58.95 32.56,0 58.95,-26.39 58.95,-58.95z" />
+                    </g>
+                </svg>
+            </div>
+            <div className={s.text}>
+                <div className={s.row}>
+                    <h4>{props.name ? props.name : "..."}</h4>  
+                    <p>{props.date ? props.date : "..."}</p>
                 </div>
-                <div className={s.cat_card_info_img} style={{ "background": `url('${props.img_cat}') 0/cover no-repeat` }}>
-                    <div >
-                        <svg xmlns="http://www.w3.org/2000/svg" className={s.heart} throwIfNamespace="preserve" width="320px" height="260px" version="1.1" viewBox="0 -0.2 5.85 5.5" xlinkHref="http://www.w3.org/1999/xlink">
-                            <defs>
-                            </defs>
-                            <g id="Layer_x0020_1">
-                                <metadata id="CorelCorpID_0Corel-Layer" />
-                                <path className={s.fil0} d="M2.92 0.82c0,0 0.51,-0.78 1.27,-0.82 0.96,-0.05 1.61,0.67 1.65,1.48 0.05,0.8 -0.68,1.61 -1.15,2.07 -0.98,0.99 -1.42,1.29 -1.76,1.62 -0.33,-0.33 -0.78,-0.62 -1.77,-1.61 -0.46,-0.46 -1.2,-1.26 -1.16,-2.07 0.05,-0.81 0.69,-1.53 1.65,-1.48 0.77,0.04 1.27,0.81 1.27,0.81z" />
-                            </g>
-                        </svg>
-                    </div>
+                <div>
+                    <button class={s.breed} onClick={() => { 
+                        dispatch(setActiveBreed(all_breeds.find(el => el.name === props.breed)))
+                        dispatch(setActivePopupBreeds(true)) 
+                    }}>{props.breed ? props.breed : `...`}</button>
+                    <Link href={`/cattery/${props.id_cattery}`}><a>{props.cattery ? props.cattery : `...`}</a></Link>
                 </div>
-
-                <div className={`${s.cat_card_info_row} ${s.cat_card_info_row_2}`}>
-                    <div className={s.cat_card_info_row_text} >
-                        <p><img src="/img/icon/date.svg" alt="" />{
-                            props.age ? props.age : "5/2/21 (3 m YO)"
-                        } </p>
-                        <p><img src="/img/icon/gender.svg" alt="" />
-                            {
-                                props.female ? props.female : "Female"
-                            }
-                        </p>
-                        <p><img src="/img/icon/color.svg" alt="" />
-                            {
-                                props.color ? props.color : "Chocolate Brown"
-                            }
-
-                        </p>
-                        <p className={s.location} ><img src="/img/icon/coords.svg" alt="" />
-                            {
-                                props.location ? props.location : "Los Angeles, CA"
-                            }
-                        </p>
-                    </div>
-                    {
-                        props.discount ?
-                            (
-                                <Link href="/kitty/1">
-                                    <a className={`${s.cat_card_info_row__link} ${s.discount_link}`}>
-                                        Buy With {props.discount}% Discount
-                                    </a>
-                                </Link>
-                            ) :
-                            (
-                                <Link href="/kitty/1">
-                                    <a className={s.cat_card_info_row__link}>
-                                        Detail
-                                    </a>
-                                </Link>
-                            )
-                    }
+                <div>
+                    <p>{props.gender ? props.gender : `...`}</p>
+                    <p>{props.color ? props.color : `...`}</p>
+                    <p>{props.location ? props.location : `...`}</p>
                 </div>
-                <div className={s.show_more_text}>
-                    <p></p>
+                <div>
+                    <Link href={`/kitty/${props.id_kitty}`}><a>DETAIL</a></Link>
                 </div>
             </div>
-        )
+        </div>
+    )
     
 }
 

@@ -1,0 +1,142 @@
+.card_catteries {
+    display: flex;
+    padding: 100px 0;
+    width: 1400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 25);
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img_liked {
+    width: 390px;
+    height: 390px;
+    position: relative;
+    margin-right: 120px;
+}
+
+.img_liked svg {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.img_liked svg .fil2 {
+    fill: none
+}
+
+.img_liked svg .fil3 {
+    fill: #D5D5D5
+}
+
+.img_liked svg .fil1 {
+    fill: #D5D5D5;
+    transition: .6s;
+}
+
+.img_liked svg .fil0 {
+    fill: black;
+    transition: .6s;
+
+}
+
+.img_liked svg .fil4 {
+    fill: #D5D9DD
+}
+
+.img_liked svg.liked .fil1 {
+    fill: rgb(199, 4, 4);
+}
+
+.img_liked svg.liked .fil0 {
+    fill: rgb(199, 4, 4);
+}
+
+.text {
+    max-width: 890px;
+}
+
+.text .row {
+    display: flex;
+}
+
+.text h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text h3 img {
+    margin-left: 20px;
+    width: 27px;
+}
+
+.text>div {
+    margin-bottom: 30px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating svg.active .f0 {
+    fill: #152B34;
+}
+
+.rating svg {
+    width: 27px;
+    margin-right: 15px;
+}
+
+.rating+a {
+    margin-top: 2px;
+}
+
+.site {
+    cursor: alias;
+    font-size: 22.67px;
+}
+
+.breeds h4:nth-child(2) {
+    max-width: 620px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.breeds a, .description a {
+    font-size: 22.67px;
+    color: #6D7B81;
+    text-decoration: underline;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.description {
+    align-items: flex-end;
+}
+
+.description h4 {
+    max-width: 710px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.text>a {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 43, 52, 0.6);
+    border-radius: 100px;
+    color: white;
+    padding: 5px 60px;
+    width: fit-content;
+}

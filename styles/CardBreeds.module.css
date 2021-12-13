@@ -1,0 +1,81 @@
+.card_breeds {
+    width: 245px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_breeds .img_cat {
+    background: #f2efe8;
+    border-radius: 18px;
+    width: 245px;
+    height: 245px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.card_breeds .img_cat img {
+    position: absolute;
+    bottom: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 345px;
+}
+
+.card_breeds .img_cat img:first-child {
+    display: none;
+}
+
+.card_breeds .img_cat:hover img:first-child {
+    display: inline;
+}
+
+.card_breeds .img_cat:hover img:last-child {
+    transition: .6s;
+    opacity: 0;
+}
+
+
+.text_info {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.text_info>button {
+    background: none;
+    cursor: help;
+}
+
+.text_info>button img {
+    width: 32px;
+}
+
+.text_info h4 {
+    max-width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    text-transform: uppercase;
+    font-family: "Oxygen";
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.card_breeds a {
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 43, 52, 0.6);
+    border-radius: 100px;
+    color: white;
+    padding: 5px 0;
+}

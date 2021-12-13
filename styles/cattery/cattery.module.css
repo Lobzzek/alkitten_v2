@@ -1,0 +1,125 @@
+.top_cnt, .bottom_cnt {
+    display: flex;
+    width: 1400px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.main_img {
+    width: 490px;
+    height: 490px;
+    background: url("/img/empty_img.jpg") center/cover;
+}
+
+.top_cnt .data {
+    width: 662px;
+}
+
+.top_cnt .data .row {
+    display: flex;
+    align-items: center;
+}
+
+.top_cnt .data .cattery {
+    margin-bottom: 10px;
+}
+
+.top_cnt .data .cattery h2 {
+    text-transform: uppercase;
+}
+
+.top_cnt .data .cattery img {
+    width: 27px;
+    margin-left: 20px;
+}
+
+.top_cnt .data .rating svg {
+    width: 27px;
+    margin-right: 15px;
+}
+
+.top_cnt .data .rating svg.active .f0 {
+    fill: #152B34;
+}
+
+.top_cnt .data>div:nth-child(1) {
+    margin-bottom: 55px;
+}
+
+.bottom_cnt>h4 {
+    max-width: 542px;
+}
+
+.top_cnt .data>div:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.top_cnt .data>div:nth-child(2) a {
+    font-size: 22.67px;
+    cursor: alias;
+}
+
+.top_cnt .data>div:nth-child(3) {
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.top_cnt .data>div:nth-child(3) h4:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
+.top_cnt .data>a {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 43, 52, 0.6);
+    border-radius: 100px;
+    color: white;
+    padding: 5px 60px;
+    width: fit-content;
+}
+
+.media {
+    width: 662px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.media:hover {
+    opacity: .6;
+}
+
+.media .vid {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 372px;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+}
+
+.media .photos {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media .photos div {
+    width: 107px;
+    height: 107px;
+    border: 2px solid #000;
+}

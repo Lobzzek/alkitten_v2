@@ -2,7 +2,7 @@ let jsonCats = {
     "long_hair": [
         {
             "name": "American Bobtail",
-            "img": "/img/cats_slider/Longhair/American Bobtail/1.jpg",
+            "img": "/img/cats_breeds/Longhair/American Bobtail/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -21,7 +21,7 @@ let jsonCats = {
         },
         {
             "name": "American Curl Longhair",
-            "img": "/img/cats_slider/Longhair/American Curl Longhair/1.jpg",
+            "img": "/img/cats_breeds/Longhair/American Curl Longhair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -40,7 +40,7 @@ let jsonCats = {
         },
         {
             "name": "Birman",
-            "img": "/img/cats_slider/Longhair/Birman/1.jpg", 
+            "img": "/img/cats_breeds/Longhair/Birman/1.jpg", 
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -59,7 +59,7 @@ let jsonCats = {
         },
         {
             "name": "British Longhair",
-            "img": "/img/cats_slider/Longhair/British Longhair/1.jpg",
+            "img": "/img/cats_breeds/Longhair/British Longhair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -78,7 +78,7 @@ let jsonCats = {
         },
         {
             "name": "Himalayan",
-            "img": "/img/cats_slider/Longhair/Himalayan/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Himalayan/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -97,7 +97,7 @@ let jsonCats = {
         },
         {
             "name": "Household Pet",
-            "img": "/img/cats_slider/Longhair/Household Pet/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Household Pet/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -116,7 +116,7 @@ let jsonCats = {
         },
         {
             "name": "Japanese Bobtail Longhair",
-            "img": "/img/cats_slider/Longhair/Japanese Bobtail Longhair/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Japanese Bobtail Longhair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -135,7 +135,7 @@ let jsonCats = {
         },
         {
             "name": "Karelian Bobtail",
-            "img": "/img/cats_slider/Longhair/Karelian Bobtail/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Karelian Bobtail/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -154,26 +154,7 @@ let jsonCats = {
         },
         {
             "name": "Maine Coon Polydactyl",
-            "img": "/img/cats_slider/Longhair/Maine Coon Polydactyl/1.jpg",
-            "height": "9 to 10 inches",
-            "weight": "7 to 16 pounds",
-            "life_span": "13 to 15 years",
-            "good_with": "cats, dogs, families, seniors",
-            "intelligence": "hight",
-            "temperament": "sociable, affectionate",
-            "playfulness": "medium",
-            "activity": "calm",
-            "shedding": "normal",
-            "patterns": "tabby, solid, bi-color, calico/tri-color, pointcolor ",
-            "vocalness": "frequent",
-            "coat_length": "long shrort",
-            "colors": "chocolate/ brown/ sable/ cinnamon/ lavender/ silver/ fawn/ blue/ grayblack/ eb/ cream/ beige/ tan/ lilac/ red/ orange/ white",
-            "other_traits": "easy to train, easy to groom, friendly toward, humans, friendl toward other pets, friendly, toward strangers, prone to health issues, high potential for weight gain, good for first-time pet owners, strong loyalty tendencies, good lap cat, tolerates being picked up",
-            "description": "American bobtails are known for their short bobbed tails, rugged appearance, and playful personalities. They have been referred to as the “golden retriever” of cat breeds, thanks to their affectionate and friendly personalities. These cats love to be around humans and have a sweet, gentle nature that makes them wonderful companions. American bobtails are a relatively uncommon breed. Because they’re considered rare, these cats can cost around $600–$1,200 from a reputable breeder."
-        },
-        {
-            "name": "Maine Coon Polydactyl",
-            "img": "/img/cats_slider/Longhair/Maine Coon Polydactyl/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Maine Coon Polydactyl/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -192,7 +173,7 @@ let jsonCats = {
         },
         {
             "name": "Maine Coon",
-            "img": "/img/cats_slider/Longhair/Maine Coon/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Maine Coon/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -211,7 +192,7 @@ let jsonCats = {
         },
         {
             "name": "Nebelung",
-            "img": "/img/cats_slider/Longhair/Nebelung/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Nebelung/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -230,7 +211,7 @@ let jsonCats = {
         },
         {
             "name": "Norwegian Forest Cat",
-            "img": "/img/cats_slider/Longhair/Norwegian Forest Cat/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Norwegian Forest Cat/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -249,7 +230,7 @@ let jsonCats = {
         },
         {
             "name": "Persian",
-            "img": "/img/cats_slider/Longhair/Persian/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Persian/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -268,7 +249,7 @@ let jsonCats = {
         },
         {
             "name": "Ragdoll",
-            "img": "/img/cats_slider/Longhair/Ragdoll/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Ragdoll/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -287,7 +268,7 @@ let jsonCats = {
         },
         {
             "name": "Scottish Fold Longhair",
-            "img": "/img/cats_slider/Longhair/Scottish Fold Longhair/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Scottish Fold Longhair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -306,7 +287,7 @@ let jsonCats = {
         },
         {
             "name": "Scottish Straight Longhair",
-            "img": "/img/cats_slider/Longhair/Scottish Straight Longhair/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Scottish Straight Longhair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -325,7 +306,7 @@ let jsonCats = {
         },
         {
             "name": "Siberian Neva Masquerade",
-            "img": "/img/cats_slider/Longhair/Siberian Neva Masquerade/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Siberian Neva Masquerade/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -344,7 +325,7 @@ let jsonCats = {
         },
         {
             "name": "Somali",
-            "img": "/img/cats_slider/Longhair/Somali/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Somali/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -363,7 +344,7 @@ let jsonCats = {
         },
         {
             "name": "Turkish Angora",
-            "img": "/img/cats_slider/Longhair/Turkish Angora/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Turkish Angora/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -382,7 +363,7 @@ let jsonCats = {
         },
         {
             "name": "Turkish Van",
-            "img": "/img/cats_slider/Longhair/Turkish Van/1.jpg",
+            "img": "/img/cats_breeds/Longhair/Turkish Van/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -403,7 +384,7 @@ let jsonCats = {
     "short_hair": [
         {
             "name": "Abyssinian",
-            "img": "/img/cats_slider/Shorthair/Abyssinian/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Abyssinian/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -422,7 +403,7 @@ let jsonCats = {
         },
         {
             "name": "American Bobtail Shorthair",
-            "img": "/img/cats_slider/Shorthair/American Bobtail Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/American Bobtail Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -441,7 +422,7 @@ let jsonCats = {
         },
         {
             "name": "American Curl Shorthair",
-            "img": "/img/cats_slider/Shorthair/American Curl Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/American Curl Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -460,7 +441,7 @@ let jsonCats = {
         },
         {
             "name": "American Shorthair",
-            "img": "/img/cats_slider/Shorthair/American Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/American Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -479,7 +460,7 @@ let jsonCats = {
         },
         {
             "name": "Australian Mist",
-            "img": "/img/cats_slider/Shorthair/Australian Mist/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Australian Mist/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -498,7 +479,7 @@ let jsonCats = {
         },
         {
             "name": "Bengal",
-            "img": "/img/cats_slider/Shorthair/Bengal/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Bengal/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -517,7 +498,7 @@ let jsonCats = {
         },
         {
             "name": "Bombay",
-            "img": "/img/cats_slider/Shorthair/Bombay/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Bombay/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -536,7 +517,7 @@ let jsonCats = {
         },
         {
             "name": "British Shorthair",
-            "img": "/img/cats_slider/Shorthair/British Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/British Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -555,7 +536,7 @@ let jsonCats = {
         },
         {
             "name": "Burmese",
-            "img": "/img/cats_slider/Shorthair/Burmese/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Burmese/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -575,7 +556,7 @@ let jsonCats = {
 
         {
             "name": "Chartreux",
-            "img": "/img/cats_slider/Shorthair/Chartreux/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Chartreux/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -594,7 +575,7 @@ let jsonCats = {
         },
         {
             "name": "Chausie",
-            "img": "/img/cats_slider/Shorthair/Chausie/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Chausie/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -613,7 +594,7 @@ let jsonCats = {
         },
         {
             "name": "Cornish Rex",
-            "img": "/img/cats_slider/Shorthair/Cornish Rex/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Cornish Rex/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -632,7 +613,7 @@ let jsonCats = {
         },
         {
             "name": "Devon Rex",
-            "img": "/img/cats_slider/Shorthair/Devon Rex/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Devon Rex/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -651,7 +632,7 @@ let jsonCats = {
         },
         {
             "name": "Egyptian Mau",
-            "img": "/img/cats_slider/Shorthair/Egyptian Mau/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Egyptian Mau/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -670,7 +651,7 @@ let jsonCats = {
         },
         {
             "name": "Exotic Shorthair",
-            "img": "/img/cats_slider/Shorthair/Exotic Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Exotic Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -689,7 +670,7 @@ let jsonCats = {
         },
         {
             "name": "Household Pet",
-            "img": "/img/cats_slider/Shorthair/Household Pet/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Household Pet/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -708,7 +689,7 @@ let jsonCats = {
         },
         {
             "name": "Japanese Bobtail Shorthair",
-            "img": "/img/cats_slider/Shorthair/Japanese Bobtail Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Japanese Bobtail Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -727,7 +708,7 @@ let jsonCats = {
         },
         {
             "name": "Korat",
-            "img": "/img/cats_slider/Shorthair/Korat/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Korat/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -746,7 +727,7 @@ let jsonCats = {
         },
         {
             "name": "Kurilian Bobtail Shorthair",
-            "img": "/img/cats_slider/Shorthair/Kurilian Bobtail Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Kurilian Bobtail Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -765,7 +746,7 @@ let jsonCats = {
         },        
         {
             "name": "Manx",
-            "img": "/img/cats_slider/Shorthair/Manx/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Manx/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -784,7 +765,7 @@ let jsonCats = {
         },
         {
             "name": "Munchkin Shorthair",
-            "img": "/img/cats_slider/Shorthair/Munchkin Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Munchkin Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -803,7 +784,7 @@ let jsonCats = {
         },
         {
             "name": "Ocicat",
-            "img": "/img/cats_slider/Shorthair/Ocicat/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Ocicat/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -822,7 +803,7 @@ let jsonCats = {
         },
         {
             "name": "Pixiebob",
-            "img": "/img/cats_slider/Shorthair/Pixiebob/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Pixiebob/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -841,7 +822,7 @@ let jsonCats = {
         },
         {
             "name": "Russian Blue",
-            "img": "/img/cats_slider/Shorthair/Russian Blue/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Russian Blue/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -860,7 +841,7 @@ let jsonCats = {
         },
         {
             "name": "Savannah",
-            "img": "/img/cats_slider/Shorthair/Savannah/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Savannah/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -879,7 +860,7 @@ let jsonCats = {
         },
         {
             "name": "Scottish Fold",
-            "img": "/img/cats_slider/Shorthair/Scottish Fold/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Scottish Fold/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -898,7 +879,7 @@ let jsonCats = {
         },
         {
             "name": "Selkirk Rex Shorthair",
-            "img": "/img/cats_slider/Shorthair/Selkirk Rex Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Selkirk Rex Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -918,7 +899,7 @@ let jsonCats = {
         
         {
             "name": "Singapura",
-            "img": "/img/cats_slider/Shorthair/Singapura/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Singapura/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -937,7 +918,7 @@ let jsonCats = {
         },
         {
             "name": "Snowshoe",
-            "img": "/img/cats_slider/Shorthair/Snowshoe/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Snowshoe/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -956,7 +937,7 @@ let jsonCats = {
         },
         {
             "name": "Toyger",
-            "img": "/img/cats_slider/Shorthair/Toyger/1.jpg",
+            "img": "/img/cats_breeds/Shorthair/Toyger/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -977,7 +958,7 @@ let jsonCats = {
     "siamese_and_oriental": [
         {
             "name": "Balinese",
-            "img": "/img/cats_slider/Siamese and Oriental/Balinese/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Balinese/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -996,7 +977,7 @@ let jsonCats = {
         },
         {
             "name": "Bambino",
-            "img": "/img/cats_slider/Siamese and Oriental/Bambino/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Bambino/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1015,7 +996,7 @@ let jsonCats = {
         },
         {
             "name": "Canadian Sphynx",
-            "img": "/img/cats_slider/Siamese and Oriental/Canadian Sphynx/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Canadian Sphynx/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1034,7 +1015,7 @@ let jsonCats = {
         },
         {
             "name": "Donskoy Sphynx",
-            "img": "/img/cats_slider/Siamese and Oriental/Donskoy Sphynx/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Donskoy Sphynx/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1053,7 +1034,7 @@ let jsonCats = {
         },
         {
             "name": "Havana",
-            "img": "/img/cats_slider/Siamese and Oriental/Havana/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Havana/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1072,7 +1053,7 @@ let jsonCats = {
         },
         {
             "name": "Lykoi",
-            "img": "/img/cats_slider/Siamese and Oriental/Lykoi/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Lykoi/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1091,7 +1072,7 @@ let jsonCats = {
         },
         {
             "name": "Mekong Bobtail",
-            "img": "/img/cats_slider/Siamese and Oriental/Mekong Bobtail/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Mekong Bobtail/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1110,7 +1091,7 @@ let jsonCats = {
         },
         {
             "name": "Oriental Shorthair",
-            "img": "/img/cats_slider/Siamese and Oriental/Oriental Shorthair/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Oriental Shorthair/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1129,7 +1110,7 @@ let jsonCats = {
         },
         {
             "name": "Peterbald",
-            "img": "/img/cats_slider/Siamese and Oriental/Peterbald/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Peterbald/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1148,7 +1129,7 @@ let jsonCats = {
         },
         {
             "name": "Siamese",
-            "img": "/img/cats_slider/Siamese and Oriental/Siamese/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Siamese/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1167,7 +1148,7 @@ let jsonCats = {
         },
         {
             "name": "Thai",
-            "img": "/img/cats_slider/Siamese and Oriental/Thai/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Thai/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",
@@ -1186,7 +1167,7 @@ let jsonCats = {
         },
         {
             "name": "Tonkinese",
-            "img": "/img/cats_slider/Siamese and Oriental/Tonkinese/1.jpg",
+            "img": "/img/cats_breeds/Siamese and Oriental/Tonkinese/1.jpg",
             "height": "9 to 10 inches",
             "weight": "7 to 16 pounds",
             "life_span": "13 to 15 years",

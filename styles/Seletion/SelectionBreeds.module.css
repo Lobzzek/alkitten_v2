@@ -1,0 +1,26 @@
+.selection_breeds {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.blocks>div {
+    margin: 0px 50px 120px 50px;
+}
+
+.selection_breeds > button {
+    text-decoration: underline;
+    background: none;
+    color: #6D7B81;
+    font-size: 18.67px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,95 @@
+.navigation {
+    display: flex;
+    padding: 45px 0;
+    width: 1400px;
+    background: white;
+    z-index: 1;
+    box-shadow: 0 10px 20px white;
+}
+
+.navigation.active {
+    position: fixed;
+    top: 136px;
+}
+
+.navigation button {
+    background: none;
+    margin-right: 30px;
+    color: #000;
+    position: relative;
+}
+
+.navigation button:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    bottom: 2px;
+    left: 0;
+    transform: scaleX(0);
+    transition: .6s;
+}
+
+.navigation button.active::before {
+    transform: scaleX(1);
+}
+
+.info {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.info ul {
+    width: 100%;
+}
+
+.info ul.active {
+    margin-top: 137px;
+}
+
+.info ul li {
+    position: relative;
+    background: white;
+    list-style: none;
+    padding: 40px 40px 40px 0;
+    transition: .6s;
+    cursor: pointer;
+    border-bottom: .53px solid rgba(0, 0, 0, .25);
+}
+
+
+.info li div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info li div button {
+    height: fit-content;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0;
+    color: #000;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-45deg);
+    margin-top: -18px;
+    transition: 0s;
+}
+
+.info li p {
+    transition: .6s;
+    overflow: hidden;
+    height: 0px;
+}
+
+.info div h2 {
+    margin-top: 50px;
+}

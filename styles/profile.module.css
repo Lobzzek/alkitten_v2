@@ -1,0 +1,112 @@
+.profile {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.top_cnt {
+    position: relative;
+    background: #F1F2F5;
+    padding: 70px 0 70px 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 66px;
+}
+
+.top_cnt .settings {
+    background: none;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.top_cnt .settings img {
+    width: 27px;
+}
+
+.top_cnt .socials {
+    background: none;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.top_cnt .socials a {
+    margin-left: 20px;
+}
+
+.top_cnt .socials a img {
+    height: 27px;
+}
+
+.top_cnt .socials a:nth-child(2) img {
+    filter: invert(40%);
+    height: 30px;
+}
+
+.user_data {
+    display: flex;
+    align-items: center;
+}
+
+.user_data .img {
+    width: 180px;
+    height: 180px;
+    background: url("/img/user.jpg") center/cover no-repeat;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.user_data h3 {
+    display: flex;
+    align-items: center;
+}
+
+.user_data h3 img {
+    margin-left: 20px;
+}
+
+.user_data h4 {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.bottom_cnt {
+    width: 1285px;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+.bottom_cnt .detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.bottom_cnt .detail button {
+    color: #6D7B81;
+    background: none;
+    text-decoration: underline;
+}
+
+.bottom_cnt ul li {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.bottom_cnt ul li h4:nth-child(1){
+    color:rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    width: 300px;
+    margin-right: 200px;
+}

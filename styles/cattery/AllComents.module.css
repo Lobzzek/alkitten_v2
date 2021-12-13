@@ -1,0 +1,135 @@
+.all_commnets {
+    margin-top: 100px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistic {
+    background: #F1F2F5;
+    padding: 60px;
+    margin-bottom: 50px;
+    width: 1400px;
+}
+
+.b1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+
+.b1 h3 {
+    font-family: "Oxygen";
+    font-weight: 600;
+
+}
+
+.b1 h3 span {
+    color: #73738f;
+}
+
+
+.b2 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.b2 li {
+    list-style: none;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.b2 li h4 {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.b2 li label {
+    cursor: pointer;
+    transition: .5s;
+    font-size: 22.67px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.b2 li label:hover {
+    opacity: .6;
+}
+
+.b2 li input {
+    margin-right: 10px;
+}
+
+.b2 li .group {
+    display: flex;
+    align-items: center;
+    width: 140px;
+}
+
+.b2 .bar {
+    background: rgb(219, 219, 219);
+    width: 70%;
+    height: 20px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.b2 .progress {
+    margin: 0;
+    padding: 0;
+}
+
+.b2 li:hover label, .b2 li:hover h4 {
+    color: #000;
+}
+
+.b2 li:nth-child(1):hover .thumb {
+    background: rgb(1, 165, 1);
+}
+
+.b2 li:nth-child(2):hover .thumb {
+    background: rgb(133, 212, 133);
+}
+
+.b2 li:nth-child(3):hover .thumb {
+    background: rgb(198, 219, 6);
+}
+
+.b2 li:nth-child(4):hover .thumb {
+    background: rgb(211, 137, 0);
+}
+
+.b2 li:nth-child(5):hover .thumb {
+    background: rgb(248, 0, 0);
+}
+
+.b2 .thumb {
+    background: #73738f;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.comments>div:last-child {
+    border: 0;
+}
+
+.all_commnets>button {
+    text-decoration: underline;
+    background: none;
+    color: #6D7B81;
+    font-size: 18.67px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

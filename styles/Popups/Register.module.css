@@ -1,0 +1,112 @@
+.register {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 19;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.register .fon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    opacity: 0;
+}
+
+.register .cnt {
+    background: white;
+    border-radius: 25px;
+    padding: 30px;
+    z-index: 1;
+    width: 679px;
+    max-height: 97%;
+    transition: .6s;
+    opacity: 0;
+    transform: translateY(30%);
+}
+
+.current {
+    margin-bottom: 25px;
+    position: relative;
+    width: 100%;
+}
+
+.current button {
+    background: white;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #6d7b8171;
+    color: #000;
+    width: 50%;
+    border-radius: 0;
+    transition: .6s;
+}
+
+.current button.active {
+    border-bottom: 3px solid #000;
+}
+
+.dynamic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dynamic input[type="text"] {
+    width: 100%;
+    height: 61.3px;
+    background: #f1f2f5;
+    border-radius: 100px;
+    border: none;
+    font-size: 18.67px;
+    margin-bottom: 15px;
+    padding: 0 30px;
+}
+
+.dynamic .policy, .dynamic .rev_account, .dynamic input[type="text"]::placeholder, .dynamic .row a, .dynamic .row label {
+    color: #00000080;
+}
+
+.dynamic .policy a,
+.dynamic .rev_account span {
+    color: #000;
+    cursor: pointer;
+}
+.dynamic .policy{
+    margin: 10px 0; 
+}
+.dynamic button {
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dynamic .rev_account {
+    width: fit-content;
+}
+
+.dynamic .rev_account span:hover {
+    opacity: .6;
+}
+
+.dynamic .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.dynamic .row label {
+    margin-left: 10px;
+    font-size: 18.67px;
+}

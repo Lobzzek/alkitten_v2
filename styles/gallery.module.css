@@ -1,0 +1,32 @@
+.photos {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos div {
+    width: 330px;
+    height: 330px;
+    background: url('/img/cat_1_gallery.jpg') center/cover no-repeat;
+    margin: 0 13px 26px 13px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.photos div:nth-child(even) {
+    background: url('/img/cat_2_gallery.jpg') center/cover no-repeat;
+}
+
+.photos div:hover {
+    opacity: .6;
+}
+
+.see_more {
+    text-decoration: underline;
+    background: none;
+    color: #6D7B81;
+    font-size: 18.67px;
+    margin-bottom: 50px;
+}

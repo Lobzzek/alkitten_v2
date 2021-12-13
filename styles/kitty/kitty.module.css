@@ -1,0 +1,124 @@
+.top_cnt, .bottom_cnt {
+    display: flex;
+    width: 1400px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.main_img {
+    width: 542px;
+    height: 542px;
+    background: url("/img/cat_1_gallery.jpg") center/cover;
+}
+
+.top_cnt .data {
+    width: 662px;
+}
+
+.top_cnt .data .row {
+    display: flex;
+    align-items: center;
+}
+
+.top_cnt .data>div:first-child .row {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.top_cnt .data>div:first-child .row h2 {
+    text-transform: uppercase;
+}
+
+.top_cnt .data>div:first-child button {
+    background: none;
+    color: #000;
+    cursor: help;
+    text-decoration: underline;
+}
+
+.top_cnt .data>div:first-child {
+    margin-bottom: 50px;
+}
+
+.top_cnt .data>div:nth-child(2) {
+    margin-bottom: 80px;
+}
+
+.top_cnt .data>div:nth-child(2) h4 {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.top_cnt .data>div:last-child .cattery img {
+    margin-left: 20px;
+    width: 27px;
+}
+
+.top_cnt .data>div:last-child .cattery {
+    margin-bottom: 15px;
+}
+
+.top_cnt .data>div:last-child .rating_comments svg {
+    margin-right: 15px;
+    width: 27px;
+    height: 27px;
+}
+
+.top_cnt .data>div:last-child .rating_comments svg.active .f0 {
+    fill: #152B34;
+}
+
+.top_cnt .data>div:last-child .rating_comments {
+    margin-bottom: 45px;
+}
+
+.top_cnt .data>div:last-child>a {
+    text-transform: uppercase;
+    background: rgba(21, 43, 52, 0.6);
+    border-radius: 100px;
+    color: white;
+    padding: 7px 60px;
+    width: fit-content;
+}
+
+.bottom_cnt>h4 {
+    max-width: 542px;
+}
+
+.media {
+    width: 662px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.media:hover {
+    opacity: .6;
+}
+
+.media .vid {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 372px;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+}
+
+.media .photos {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media .photos div {
+    width: 107px;
+    height: 107px;
+    border: 2px solid #000;
+}
