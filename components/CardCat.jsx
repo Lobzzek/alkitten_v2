@@ -32,7 +32,7 @@ const CardCat = (props) => {
                     <p>{props.date ? props.date : "..."}</p>
                 </div>
                 <div>
-                    <button class={s.breed} onClick={() => { 
+                    <button className={s.breed} onClick={() => { 
                         dispatch(setActiveBreed(all_breeds.find(el => el.name === props.breed)))
                         dispatch(setActivePopupBreeds(true)) 
                     }}>{props.breed ? props.breed : `...`}</button>

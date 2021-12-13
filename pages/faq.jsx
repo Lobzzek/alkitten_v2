@@ -84,7 +84,7 @@ const Faq = () => {
         <MainWrapper>
             <SilverTitle width="1400">
                 <h2>Got a question or two?</h2>
-                <p>Here 's a list of Frequently Asked Questions answered for you!</p>
+                <p>Here &apos;s a list of Frequently Asked Questions answered for you!</p>
             </SilverTitle>
             <div className={s.navigation} ref={navigation}>
                 <button 
