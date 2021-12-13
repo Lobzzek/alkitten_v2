@@ -1,5 +1,5 @@
 import React from 'react'
-import s from '../../styles/Kitty/kitty.module.css'
+import s from '../../styles/kitty/kitty.module.css'
 import MainWrapper from '../../components/MainWrapper/MainWrapper.jsx'
 import Link from 'next/link'
 import SelectionCat from '../../components/Selections/SelectionCat.jsx'
